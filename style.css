@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(233, 92, 92);
+    font-family: cursive;
+
+}
+
+.header_div{
+    background-color: white;
+    color: rgb(145, 16, 16);
+}
+
+.header_div img{
+    width: 100px;
+}
+
+.main_div{
+    background-color: rgb(226, 50, 50);
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid red;
+}
+
+.main_div label{
+    background-color: white;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 18px white;
+}
+
+#cam, #result{
+    border: 2px solid gray;
+    width: 310px;
+    height:300px;
+    box-shadow: 5px 5px 18px white;
+}
+
+.main_div button{
+    width: 310px;
+    font-size: 16px;
+    border: 1px solid;
+    box-shadow: 5px 5px 18px white;
+}
+
+#result_text{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#result_text h4{
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+
+#result_text img{
+    width: 70px;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    color: orangered;
+    width: 100%;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+}
